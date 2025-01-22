@@ -1,6 +1,0 @@
----
-- name: Install postgres exporter 
-  hosts: target
-  gather_facts: no
-  roles:
-    - role: postgres_exporter_deploy
